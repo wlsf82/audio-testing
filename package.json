@@ -1,0 +1,20 @@
+{
+  "name": "audio-testing",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate how to test audio with Cypress.",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "audio-testing"
+  ],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}

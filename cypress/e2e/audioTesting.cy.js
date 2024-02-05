@@ -29,7 +29,10 @@ describe('cy.handsOn("Audio Testing")', () => {
       .should(audioElements => {
         let audible = true
 
-        if (audioElements[0].paused || audioElements[0].muted) {
+        if (
+          audioElements[0].paused ||
+          audioElements[0].muted)
+        {
           audible = false
         }
     

@@ -35,7 +35,7 @@ describe('cy.handsOn("Audio Testing")', () => {
         {
           audible = false
         }
-    
+
         expect(audible).to.be.equal(false)
       })
   })
